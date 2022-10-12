@@ -2,6 +2,21 @@
 
 * {
     font-family: 'Roboto Flex', sans-serif;
-};
+}
 
 
+@media only screen and (max-width:368px){
+    #map {
+        overflow: hidden;
+        max-width: 98%;
+        max-height: 100%;
+    }
+    .iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 0% !important;
+        height: 0% !important;
+    }    
+
+    }
