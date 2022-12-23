@@ -1,0 +1,50 @@
+body {
+    color: #e0e1df;
+    background-image: url(../img/flores/fundoverde.jpg.webp);
+    z-index: -1;
+    background-attachment: fixed;
+
+
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+    color: rgb(224, 169, 4);
+}
+
+.navbar-light .navbar-nav .nav-link.active:hover {
+    color: #e0e1df !important;
+}
+.navbar-brand {
+    margin-right: 4rem;
+}
+
+#products .card-body.text-center.p-0 h3 {
+
+    color: #e0e1df !important;
+
+}
+
+.card {
+    border: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+
+}
+
+address a:hover {
+    color: #53624f;
+}
+
+
+
+
+#products>h1 {
+    color: #e0e1df;
+}
+
+.products>img {
+    max-height: 600px;
+}
