@@ -14,6 +14,9 @@ header{
 .navbar-light .navbar-nav .nav-link.active {
     color: rgb(224, 169, 4);
 }
+.navbar-light .navbar-nav .nav-link.active:hover{
+    color: #e0e1df !important;
+}
 
 #products .card-body.text-center.p-0 h3 {
 
