@@ -1,0 +1,34 @@
+body,
+footer {
+    background-color: #e0e1df !important;
+    color: #53624f !important;
+
+}
+header{
+    background-color: #53654f !important;
+  
+
+}
+
+
+.navbar-light .navbar-nav .nav-link.active {
+    color: rgb(224, 169, 4);
+}
+
+#products .card-body.text-center.p-0 h3 {
+
+    color: #53624f !important;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+
+}
+address a:hover{
+    color: #53624f;
+}
+
+.products>img {
+    max-height: 400px;
+}
