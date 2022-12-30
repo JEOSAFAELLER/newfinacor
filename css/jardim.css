@@ -1,6 +1,6 @@
 body {
     color: #e0e1df;
-    background-image: url(../img/flores/fundoverde.jpg.webp);
+    background-image: url(../img/jardim/fundoverde.jpg.webp);
     z-index: -1;
     background-attachment: fixed;
 
@@ -48,3 +48,7 @@ address a:hover {
 .products>img {
     max-height: 600px;
 }
+#img-main{
+    max-height: 800px;
+    min-width: 800px;
+ }
