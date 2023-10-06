@@ -1,7 +1,8 @@
-function girar(moedaId, btnId, imgId){
+function girar(moedaId, btnId, imgId,valueId){
 const moeda = document.getElementById(moedaId);
 const btn = document.getElementById(btnId);
 const img = document.getElementById(imgId);
+const value = document.getElementById(valueId);
  
 let ladoImg = true;
 
@@ -21,6 +22,7 @@ btn.addEventListener('click', () => {
                 <li class="lista_moeda">Decoração com bolas, laços, flores</li>
                 <li class="lista_moeda">Inclui iluminação <br> - pisca de led</li>
                 <li class="lista_moeda">Disponivel nas cores vermelho, dourado, champanhe, rosé</li>
+                <li class="lista_moeda"><span class="value">R$ ${valueId}*</span></li>
         
         `
 
@@ -39,9 +41,9 @@ btn.addEventListener('click', () => {
     });
 }
 
-    girar("moeda1","btn1","img1");
-    girar("moeda2","btn2","img2");
-    girar("moeda3","btn3","img3");
-    girar("moeda4","btn4","img4");
+    girar("moeda1","btn1","img1","1000,00");
+    girar("moeda2","btn2","img2","1500,00");
+    girar("moeda3","btn3","img3","2000,00");
+    girar("moeda4","btn4","img4","3500,00");
 
 
