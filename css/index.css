@@ -74,7 +74,19 @@
     transition: all 0.5s ease-in-out!important;
     
   }
+  #btn-whats{
+    position: fixed;
+    text-align: center;
+    font-size: 30px;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    box-shadow: 1px 1px 2px #888;
+    background-color: #25d366;
+    color: #fff;
 
+}
  
 /*Media*/
 
