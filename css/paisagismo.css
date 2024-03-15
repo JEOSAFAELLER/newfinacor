@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,200;8..144,400;8..144,700&display=swap');
+
+* {
+    font-family: 'Roboto Flex', sans-serif;
+    
+}
+/*Navbar*/
+.navbar-light .navbar-toggler {
+    color: transparent;
+    border-color: rgba(0,0,0,0); 
+}
+.navbar-toggler {
+    border: 0;
+  }  
+  .navbar-toggler:focus,
+  .navbar-toggler:active,
+  .navbar-toggler-icon:focus {
+     outline:none;
+     box-shadow:none;
+     border: 0;
+  }
+  
+  .toggler-icon {
+    width: 30px;
+    height: 3px;
+    background-color:rgb(224, 169, 4) ;
+    display: block;
+    transition: all 1s ease-in-out;
+    border-radius: 1px;
+  }
+  .middle-bar{
+    margin: 5px auto;
+    width: 20px;
+  }
+  .navbar-toggler .top-bar {
+    transform: rotate(45deg);
+    transform-origin: 10% 10%;
+    margin-top: 0px;
+    right: 0px;
+  }
+  .navbar-toggler .middle-bar {
+    opacity: 0;
+    filter: alpha(opacity=0);
+  }
+  .navbar-toggler .bottom-bar {
+   transform: rotate(-45deg);
+   transform-origin: 10% 10%;
+   margin-top: 0px;
+   right: 0px;
+   
+  }
+  .navbar-toggler.collapsed .top-bar{
+    transform: rotate(0);
+  } 
+  .navbar-toggler.collapsed .middle-bar{
+    opacity: 1;
+    transform: alpha(opacity=100);
+  } 
+  .navbar-toggler.collapsed .bottom-bar{
+    transform: rotate(0);
+  } 
+  
+  .navbar-toggler.collapsed .toggler-icon {
+    background-color:rgb(224, 169, 4) ;
+  } 
+  .navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 1;
+    align-items: center;
+  transition: all 1s ease-in-out;
+  }
+
+  .navbar-light .navbar-nav .nav-link.active:hover{
+    color:rgb(224, 169, 4)!important;
+    transition: all 0.5s ease-in-out!important;
+    
+  }
+
+
+  
+
+main,
+section,
+footer {
+    
+    max-width: 1400px;
+    justify-content: center;
+    margin-bottom: 200px;
+}
+
+#cards{
+    display: flex;
+    justify-content: space-evenly;
+}
+.card-img-top,
+.cards{
+    min-height: 400px;
+    max-height: 620px;
+    max-width: 400px;
+
+}
+
+@media only screen and (max-width:570px){
+    #main{
+        flex-direction: column-reverse;
+        justify-content: center;
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+    #carouselExampleSlidesOnly{
+        
+        min-width: 100%;
+        
+    }
+    #justificativa{
+        flex-direction: column;
+        justify-content: center;
+
+    }
+    #main-t.container,
+    #justificativa-t,
+    #justificativa-i
+    {
+        width: 100% !important;
+        margin-right: 10px !important;
+        margin-left: 10px !important;
+        
+        
+    }
+    #justificativa-t h1{
+        font-weight: 700;
+        
+    }
+            
+    #lead{
+        display: none;
+    }
+
+}
+
+
+
+
+
+
+
+
