@@ -35,3 +35,8 @@ address a:hover{
 .products>img {
     max-height: 400px;
 }
+
+#img-main{
+    max-height: 650px;
+    min-width: 650px;
+ }
