@@ -41,9 +41,9 @@ btn.addEventListener('click', () => {
     });
 }
 
-    girar("moeda1","btn1","img1","1000,00");
-    girar("moeda2","btn2","img2","1500,00");
-    girar("moeda3","btn3","img3","2000,00");
-    girar("moeda4","btn4","img4","3500,00");
+    girar("moeda1","btn1","img1","1200,00");
+    girar("moeda2","btn2","img2","1700,00");
+    girar("moeda3","btn3","img3","2300,00");
+    girar("moeda4","btn4","img4","3700,00");
 
 
